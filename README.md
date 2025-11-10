@@ -19,3 +19,53 @@
 git clone https://github.com/<yourname>/socialposter-ai.git
 cd socialposter-ai
 pip install -r requirements.txt
+```
+
+---
+
+## 🧩 运行示例
+
+```bash
+python run_task.py
+```
+
+示例输出：
+```
+[SocialPoster] Generated post for Twitter:
+"今日学习笔记：AI 执行器真的能替你发帖了 🤖✨"
+[Skyvern] Executing browser workflow...
+✅ Post published successfully!
+```
+
+---
+
+## 🌐 环境变量配置
+
+```bash
+OPENAI_API_KEY=sk-xxxx
+SKYVERN_API_KEY=sky-xxxx
+CHROME_EXECUTABLE_PATH=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+TARGET_PLATFORM=twitter
+```
+
+---
+
+## 💡 技术栈
+- Python 3.11+
+- OpenAI / Claude / Gemini API
+- Skyvern (browser executor)
+- JSON prompt templates
+- Docker (可选)
+
+---
+
+## 🧭 路线图
+- ✅ MVP：支持单平台（Twitter）
+- ⏳ v0.2：LinkedIn / 小红书发帖
+- 🔁 v0.3：定时任务 + Web 控制台
+- ☁️ v1.0：云部署 + 团队管理后台
+
+---
+
+> © 2025 Yuxun Du (James)  
+> Open Source License: MIT
