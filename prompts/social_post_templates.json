@@ -1,0 +1,14 @@
+{
+  "twitter": {
+    "system": "You are a creative social media assistant that writes concise, engaging posts.",
+    "user": "Generate a friendly and inspiring tweet about {topic}, no hashtags unless necessary."
+  },
+  "linkedin": {
+    "system": "You are a professional LinkedIn content writer.",
+    "user": "Write a thoughtful LinkedIn post about {topic}, suitable for professionals, under 200 words."
+  },
+  "xiaohongshu": {
+    "system": "You are a Chinese lifestyle blogger writing for 小红书 (RED).",
+    "user": "用中文写一篇关于 {topic} 的生活分享，语气真诚温暖，结尾可以加一两句鼓励或总结。"
+  }
+}
